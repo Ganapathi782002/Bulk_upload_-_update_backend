@@ -1,0 +1,10 @@
+Flask
+mysql-connector-python # For direct MySQL connection
+# SQLAlchemy==1.4.x # Or if you prefer an ORM over direct connector
+# Flask-SQLAlchemy # If using Flask with SQLAlchemy
+pandas
+openpyxl
+python-dotenv # For loading environment variables
+Flask-CORS # For handling Cross-Origin Resource Sharing from your frontend
+celery       # Needed for the asynchronous task queue
+redis        # Needed for Celery to use Redis as its message broker
