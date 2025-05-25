@@ -2,6 +2,7 @@ Flask
 mysql-connector-python # For direct MySQL connection
 # SQLAlchemy==1.4.x # Or if you prefer an ORM over direct connector
 # Flask-SQLAlchemy # If using Flask with SQLAlchemy
+gunicorn==20.1.0
 pandas
 openpyxl
 python-dotenv # For loading environment variables
